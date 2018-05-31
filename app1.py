@@ -18,13 +18,13 @@ app = Flask(__name__)   # create our flask app
 @app.route('/', methods=['GET'])
 def landingpage():
 
-    APIKEY='455215929-Exmhl2w5l1LdckIkFWRoiahwmrawltGzwWQ1Mffs'
+    APIKEY=''
 
-    APISECRET ='elIv4IjcH9IuJNYUWwh7zbzsJJ83P5mIOEsqoQfaJ4Ri9'
+    APISECRET =''
 
-    CONSUMERKEY ='LmsuQDk0UNVEk0BzXDEMXVyHw'
+    CONSUMERKEY =''
 
-    CONSUMERSECRET='J5QTV4bELgTH6PemoXeVkpw8y2AktHClcAVvUB27pM6NGAFbr3'
+    CONSUMERSECRET=''
 
     aut = twttr1.Auth()
     client = aut.runauth(APIKEY, APISECRET, CONSUMERKEY, CONSUMERSECRET)
