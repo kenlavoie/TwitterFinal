@@ -4,13 +4,13 @@ import oauth2
 
 
 
-key='455215929-Exmhl2w5l1LdckIkFWRoiahwmrawltGzwWQ1Mffs'
+key=''
 
-secret='elIv4IjcH9IuJNYUWwh7zbzsJJ83P5mIOEsqoQfaJ4Ri9'
+secret=''
 
-CONSUMER_KEY='LmsuQDk0UNVEk0BzXDEMXVyHw'
+CONSUMER_KEY=''
 
-CONSUMER_SECRET='J5QTV4bELgTH6PemoXeVkpw8y2AktHClcAVvUB27pM6NGAFbr3'
+CONSUMER_SECRET=''
 
 
 api = twitter.Api(consumer_key= CONSUMER_KEY,
