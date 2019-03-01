@@ -3,13 +3,13 @@ import oauth2 as oauth
 
 
 
-API_KEY='455215929-Exmhl2w5l1LdckIkFWRoiahwmrawltGzwWQ1Mffs'
+API_KEY=''
 
-API_SECRET='elIv4IjcH9IuJNYUWwh7zbzsJJ83P5mIOEsqoQfaJ4Ri9'
+API_SECRET=''
 
-CONSUMER_KEY='LmsuQDk0UNVEk0BzXDEMXVyHw'
+CONSUMER_KEY=''
 
-CONSUMER_SECRET='J5QTV4bELgTH6PemoXeVkpw8y2AktHClcAVvUB27pM6NGAFbr3'
+CONSUMER_SECRET=''
 
 
 #url = 'https://api.twitter.com/1.1/account/verify_credentials.json'
