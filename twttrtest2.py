@@ -4,13 +4,13 @@ import requests
 import oauth2 as oauth
 #from requests_oauthlib import OAuth1, OAuth2
 
-API_KEY='455215929-Exmhl2w5l1LdckIkFWRoiahwmrawltGzwWQ1Mffs'
+API_KEY=''
 
-API_SECRET='elIv4IjcH9IuJNYUWwh7zbzsJJ83P5mIOEsqoQfaJ4Ri9'
+API_SECRET=''
 
-CONSUMER_KEY='LmsuQDk0UNVEk0BzXDEMXVyHw'
+CONSUMER_KEY=''
 
-CONSUMER_SECRET='J5QTV4bELgTH6PemoXeVkpw8y2AktHClcAVvUB27pM6NGAFbr3'
+CONSUMER_SECRET=''
 """
 consumer = oauth.Consumer(key=CONSUMER_KEY, secret=CONSUMER_SECRET)
 access_token = oauth.Token(key=API_KEY, secret = API_SECRET)
@@ -20,7 +20,7 @@ timeline_endpoint = "https://api.twitter.com/1.1/statuses/home_timeline.json"
 response, data = client.request(timeline_endpoint)
 
 tweets = json.loads(data)
-for tweet in tweets:
+for tweet in tweets:Exmhl2w5l1LdckIkFWRoiahwmrawltGzwWQ1Mffs
     print(tweet['text'])
 """
 
